@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding:  0;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: rgb(54, 52, 52);
+    text-align: center;
+}
+
+.foto-perfil img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.card{
+    color: rgb(255, 255, 255);
+    border: 1px solid #e1e4e8;
+    background-color: rgb(54, 52, 52);
+    padding: 30px;
+    margin-bottom: 1;
+}
+
+.container{
+    display: flex;
+    grid-gap: 20px;
+    justify-content: space-around;
+}
+
+h1, h2, p ,li, ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
